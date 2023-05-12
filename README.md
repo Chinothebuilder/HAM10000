@@ -38,21 +38,21 @@ The CNN model consists of four convolutional layers with max-pooling, followed b
 
 #### With these ajustments we were able to create eight alternative methods: 
 
-CNN alone (CNN1), 
+        CNN alone (CNN1), 
 
-CNN + Dropout regularization (CNN2), 
+        CNN + Dropout regularization (CNN2), 
 
-CNN + Dropout regularization + Augmentation (CNN3), 
+        CNN + Dropout regularization + Augmentation (CNN3), 
 
-CNN + Dropout + Augmentation + class_weights (CNN4), 
+        CNN + Dropout + Augmentation + class_weights (CNN4), 
 
-CNN + Dropout + Augmentation + class_weights + soft attention layer (CNN5), 
+        CNN + Dropout + Augmentation + class_weights + soft attention layer (CNN5), 
 
-Xception + Dropout + Augmentation + class_weights (Xception1), 
+        Xception + Dropout + Augmentation + class_weights (Xception1), 
 
-Xception + Dropout + Augmentation + class_weights + soft attention (Xception2), 
+        Xception + Dropout + Augmentation + class_weights + soft attention (Xception2), 
 
-Xception + Dropout + Augmentation + class_weights + soft attention + focal loss (Xception3)
+        Xception + Dropout + Augmentation + class_weights + soft attention + focal loss (Xception3)
 
 
 ### Results:

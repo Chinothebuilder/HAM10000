@@ -1,4 +1,4 @@
-# HAM10000
+# SKIN LESION CLASSIFICATION WITH DEEP NEURAL NETWORKS 
 
 ### Introduction:
 
@@ -12,7 +12,7 @@ The project code is available on GitHub and is implemented in Python using Tenso
 
 The CNN model consists of four convolutional layers with max-pooling, followed by two fully connected layers with BatchNormalization and dropout regularization. The Xception model is a pre-trained deep learning model that has been trained on ImageNet and includes 126 layers. Transfer learning using Xception network was employed as a feature extractor for the categorization of skin lesions.  The rational to this is that xception which in the family of inception networks from google labs has following merit. 
 
-   Reduced model size and computational cost 
+    Reduced model size and computational cost 
 
     Gain in performance on CNN than other inception models
 

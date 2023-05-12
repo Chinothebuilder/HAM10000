@@ -20,7 +20,7 @@ The CNN model consists of four convolutional layers with max-pooling, followed b
 
 Accepts a lesser image dimension of (71, 71) 
 
-Several adjustments were made to further optimize the model. These changes includes:
+#### Several adjustments were made to further optimize the model. These changes includes:
 
 To learn new features from the data set, the xception model layers were left unfrozen during the training process in Google Colab.
 
@@ -36,7 +36,7 @@ Focal loss function was applied instead of the categorical cross_entropy to impr
 To further enhance the performance of the model, a soft-attention network layer with a dropout (0.2) was added to the architecture, this helps to enhance the value of critical features while suppressing the noise-inducing features. 
 
 
-With these ajustments we were able to create eight alternative methods: 
+#### With these ajustments we were able to create eight alternative methods: 
 
 CNN alone (CNN1), 
 
